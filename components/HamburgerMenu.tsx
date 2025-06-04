@@ -70,7 +70,7 @@ const HamburgerMenu = ({ menuOpen, slideAnim, closeMenu }: HamburgerMenuProps) =
             onPress={() => {
               closeMenu();
               switch (label) {
-                case "Dealer/Customer Onboard":
+                case "Dealer/Customer Onboard": 
                   router.push("/dealer");
                   break;
                 case "Orders":
